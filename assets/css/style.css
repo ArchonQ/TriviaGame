@@ -1,0 +1,75 @@
+body {
+    background-image: url(https://mondrian.mashable.com/uploads%252Fcard%252Fimage%252F675031%252Fbbb3432c-5253-4fa8-bb03-35b4d1b9ce23.jpg%252F950x534__filters%253Aquality%252890%2529.jpg?signature=O8rMOJtTmcjAJSkJtdbJUAC100g=&source=https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com);
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    background-color: #F5E8F9;
+    margin-top: 10em;
+    padding: 2em;
+}
+
+.display-3 {
+    font-family: 'Geostar Fill', cursive;
+    font-size: 7vw;
+}
+
+.row {
+    line-height: 2.1vw;
+}
+
+ h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size:2.5vw;
+    margin-bottom: 2.5vw;
+}
+
+h3 {
+    font-size: 2vw;
+}
+
+ p, .form-check-label, #question{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5vw;
+}
+
+.btn {
+    font-family: 'Lato', sans-serif;
+    padding: 1vw 3.4vw;
+    margin-top:1em;
+    color: #5D4E60;
+    border-color: #5D4E60;
+    border: .3vw solid;
+    font-size: 2vw;
+   
+}
+.btn-outline-light:hover {
+    color: #5D4E60; 
+    background-color: transparent; 
+    border-color: #5D4E60;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.btn-outline-light:not(:disabled):not(.disabled).active, .btn-outline-light:not(:disabled):not(.disabled):active, .show>.btn-outline-light.dropdown-toggle {
+    color: #5D4E60; 
+    background-color: transparent; 
+    border-color: #5D4E60;
+}
+
+.hidden {
+    display:none;
+}
+
+#question{
+    margin-top:2em;
+    font-weight: 700;
+}
+
+.hidden h2 {
+    font-size: 3vw;
+    font-family: 'Love Ya Like A Sister', cursive;
+    margin-bottom: 2vw;
+}
